@@ -1,0 +1,97 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	padding: 35px 0 90px 0;
+    background-image:linear-gradient(to top,#1f283d,#313842) ;
+	color: #fff;
+	text-align: center;
+}
+.link li{
+	padding: 20px;
+}
+.link a{
+	color: #000;
+	text-align: center;
+	border: none;
+}.link a:hover{
+	text-decoration: none;
+}
+.content{
+	padding: 80px;
+}
+.content-g{
+	background: #d3d3d3;
+}
+.cen{
+	text-align: center;
+}
+section li{
+	margin-top:20px ;
+}
+section figcaption{
+	padding: 20px 60px 30px 60px;
+	background: #fff;
+}
+section figcaption button{
+	width: 100%;
+	border: 1px solid #40d2b1;
+	background: #fff;
+	color: #40d2b1;
+}
+section figcaption button:hover{
+	border: 1px solid #40d2b1;
+	background: #40d2b1;
+	color: #fff;
+}
+.download{
+	padding: 5px 30px;
+	background: #40d2b1;
+	border-radius: 0;
+	color: #fff;
+}
+.con-form{
+	position: relative;
+	/*background: #000000;*/
+	color: #fff;
+	background: url(../img/contact-bg.png);
+}
+.menban{
+	position: absolute;
+	top :0;
+	width: 100%;
+	height: 100%;
+	margin-left: -80px;
+	/*padding-bottom: 2000px;
+	margin-bottom: -2000px;*/
+	overflow: hidden;
+	background: #000;
+	opacity: .5;
+	z-index: 200;
+}
+.con-form form{
+	margin-top: 20px;
+	z-index: 500;
+}
+.mes{
+	z-index: 500;
+}
+.sub{
+	width: 100%;
+	background: #40d2b1;
+	border-radius: 0;
+	color: #fff;
+}
+footer{
+	line-height: 50px;
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+span{
+	margin-right: 5px;
+}
